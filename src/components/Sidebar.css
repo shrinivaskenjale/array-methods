@@ -1,0 +1,12 @@
+.sidebar button {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 600px) {
+  .sidebar {
+    border-right: 0.1rem solid black;
+    padding-right: 1rem;
+  }
+}

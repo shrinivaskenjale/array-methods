@@ -1,0 +1,21 @@
+.user-header {
+  border-bottom: 0.1rem solid black;
+  font-weight: bold;
+}
+.user-footer {
+  border-top: 0.1rem solid black;
+  font-weight: bold;
+}
+.user-header,
+.user,
+.user-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .users-list {
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,33 @@
+:root {
+  --transition: all 0.3s ease-in-out;
+  --radius: 0.5rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(229, 228, 228);
+  font-family: cursive;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+button {
+  background: white;
+  text-transform: capitalize;
+  padding: 0.5rem;
+  border: 0.1rem solid black;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
